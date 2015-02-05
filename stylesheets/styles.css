@@ -130,7 +130,7 @@ opacity: 1;
 opacity: 1;
 }
 
-a:link, a:visited{
+#header a:link, #header a:visited{
 text-decoration: none;
 color: black;
 }
@@ -214,4 +214,201 @@ margin-left: 4px;
 top: 50%;
 margin-top: -3px;
 position: absolute;
+}
+
+#searchInfo span{
+font-size: small;
+color: #7a7a7a;
+margin-left: 135px;
+line-height: 40px;
+}
+
+#searchInfo{
+height: 40px;
+margin-bottom: 7px;
+margin-top: 2px;
+}
+
+.resultWrapper{
+height: 110px;
+
+width: 510px;
+margin-left: 135px;
+}
+
+.heading{
+font-size: 18px;
+margin: 3px 0;
+}
+
+.url{
+font-size: 14px;
+color: green;
+margin: 3px 0;
+}
+
+.content{
+font-size: 13px;
+margin: 3px 0;
+line-height: 1.4;
+word-wrap: break-word;
+color: #545454;
+}
+
+.date{
+color: #7a7a7a;
+}
+
+#searchResults a, #relatedSearches a, #pageDigits a{
+text-decoration: none;
+color: #1a0dab;
+}
+
+#searchResults a:visited, #relatedSearches a:visited, #pageDigits a:visited{
+text-decoration: none;
+color: #609;
+}
+
+#searchResults a:hover, #relatedSearches a:hover, #pageDigits a:hover{
+text-decoration: underline;
+}
+
+#last{
+height: 85px;
+}
+
+hr{
+
+}
+
+#relatedSearches{
+width: 520px;
+margin-left: 125px;
+}
+
+#relatedSearchesHead{
+color: #808080;
+font-size: 18px;
+}
+
+#relatedSearches div{
+margin-top: 15px;
+margin-left: 10px;
+margin-bottom: 15px;
+line-height: 25px;
+font-size: 13px;
+}
+
+b{
+font-weight: bold;
+}
+
+hr{
+border: solid 01px #e9e9e9;
+}
+
+#pageNo{
+position: relative;
+width: 530px;
+height: 70px;
+margin-left: 130px;
+margin-top: 35px;
+}
+
+#pageNo div div{
+display: inline-block;
+padding: 0;
+margin: 0;
+}
+
+#Go{
+position: relative;
+top: -4px;
+width: 49px;
+height: 28px;
+background-image: url('../images/nav_logo195.png');
+background-repeat: no-repeat;
+background-position: -24px -1px;
+}
+
+.o{
+position: relative;
+background: url('../images/nav_logo195.png') no-repeat -75px -10px;
+width: 19px;
+height: 18px;
+top: -5px;
+}
+
+#gle{
+background: url('../images/nav_logo195.png') no-repeat -96px -1px;
+width: 47px;
+height: 38px;
+position: relative;
+top: 7px;
+margin: 0;
+padding: 0;
+}
+
+#rightArrow{
+position: relative;
+background: url('../images/nav_logo195.png') no-repeat -158px -11px;
+width: 8px;
+height: 13px;
+top: -7px;
+left: 9px;
+}
+
+#pageNoInside{
+position: relative;
+width: 333px;
+margin-left: 98.5px;
+top: 8px;
+}
+
+#pageDigits{
+position: relative;
+top: 12px;
+left: 137px;
+font-size: 14px;
+}
+#pageDigits span{
+margin-left: 10.5px;
+}
+
+#pageDigits > span{
+margin-left: 1px;
+}
+
+#next{
+position: relative;
+left: 41px;
+}
+
+#footer a{
+text-decoration: none;
+color: #777;
+}
+
+#footer a:hover{
+text-decoration: none;
+color: black;
+opacity: 0.85;
+}
+
+#footer{
+margin-top: 35px;
+width: 100%;
+height: 40px;
+background-color: #f2f2f2;
+border-top: 1px solid #e4e4e4;
+line-height: 40px;
+font-size: small;
+}
+
+#footer span{
+margin-left: 25px;
+}
+
+#help{
+margin-left: 130px !important;
 }
